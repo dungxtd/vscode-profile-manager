@@ -40,4 +40,4 @@ export const uriSchemes = {
   featuredProfile: `${app}.uri.featuredProfile`,
 }
 
-export const featuredProfileUrl = 'http://api.github.com/repos/mrsauravsahu/vscode-manager/contents/featured'
+export const featuredProfileUrl = 'http://api.github.com/repos/dungxtd/vscode-manager/contents/featured'

@@ -13,7 +13,7 @@
     "extensions": [
         "dbaeumer.vscode-eslint",
         "Gruntfuggly.todo-tree",
-        "mrsauravsahu.vscode-manager",
+        "dungxtd.vscode-manager",
         "PKief.material-icon-theme"
     ]
 }

@@ -6,7 +6,7 @@
   },
   "extensions": [
     "fernandoescolar.vscode-solution-explorer",
-    "mrsauravsahu.vscode-manager",
+    "dungxtd.vscode-manager",
     "ms-dotnettools.csharp"
   ]
 }
