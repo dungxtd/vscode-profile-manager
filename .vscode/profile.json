@@ -1,7 +1,7 @@
 {
-    "name": "vscode-manager",
+    "name": "vscode-profile-manager",
     "userSettings": {
-        "window.title": "vscode-manager — ${activeEditorShort}${separator}${rootName}",
+        "window.title": "vscode-profile-manager — ${activeEditorShort}${separator}${rootName}",
         "editor.fontFamily": "'Cascadia Code PL', Menlo, Monaco, 'Courier New', monospace",
         "editor.fontLigatures": true,
         "workbench.iconTheme": "material-icon-theme",
@@ -13,7 +13,7 @@
     "extensions": [
         "dbaeumer.vscode-eslint",
         "Gruntfuggly.todo-tree",
-        "dungxtd.vscode-manager",
+        "dungxtd.vscode-profile-manager",
         "PKief.material-icon-theme"
     ]
 }

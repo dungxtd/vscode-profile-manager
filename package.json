@@ -1,12 +1,12 @@
 {
-	"name": "vscode-manager",
+	"name": "vscode-profile-manager",
 	"displayName": "Custom Profiles for VSCode",
 	"publisher": "dungxtd",
 	"icon": "resources/icon.png",
 	"description": "Manage VSCode custom profiles with isolated settings and extensions",
 	"version": "2.3.4",
 	"repository": {
-		"url": "https://github.com/dungxtd/vscode-manager",
+		"url": "https://github.com/dungxtd/vscode-profile-manager",
 		"type": "git"
 	},
 	"engines": {
@@ -16,7 +16,7 @@
 		"Other"
 	],
 	"keywords": [
-		"vscode-manager",
+		"vscode-profile-manager",
 		"custom-profile",
 		"profiles",
 		"power-user",
@@ -32,77 +32,77 @@
 			"explorer/context": [
 				{
 					"when": "resourceFilename =~ /profile.json$/ && resourceDirname =~ /.vscode$/",
-					"command": "vscode-manager.commands.launchProfileJson",
+					"command": "vscode-profile-manager.commands.launchProfileJson",
 					"group": "customProfiles"
 				}
 			],
 			"view/item/context": [
 				{
-					"command": "vscode-manager.commands.launchProfile",
+					"command": "vscode-profile-manager.commands.launchProfile",
 					"when": "view == customProfiles && viewItem == customProfile"
 				},
 				{
-					"command": "vscode-manager.commands.deleteProfile",
+					"command": "vscode-profile-manager.commands.deleteProfile",
 					"when": "view == customProfiles && viewItem == customProfile"
 				},
 				{
-					"command": "vscode-manager.commands.renameProfile",
+					"command": "vscode-profile-manager.commands.renameProfile",
 					"when": "view == customProfiles && viewItem == customProfile"
 				},
 				{
-					"command": "vscode-manager.commands.copyAlias",
+					"command": "vscode-profile-manager.commands.copyAlias",
 					"when": "view == customProfiles && viewItem == customProfile"
 				},
 				{
-					"command": "vscode-manager.commands.cloneProfile",
+					"command": "vscode-profile-manager.commands.cloneProfile",
 					"when": "view == customProfiles && viewItem == customProfile"
 				}
 			],
 			"view/title": [
 				{
-					"command": "vscode-manager.commands.refreshProfiles",
+					"command": "vscode-profile-manager.commands.refreshProfiles",
 					"when": "view == customProfiles",
 					"group": "navigation"
 				},
 				{
-					"command": "vscode-manager.commands.createProfile",
+					"command": "vscode-profile-manager.commands.createProfile",
 					"when": "view == customProfiles",
 					"group": "navigation"
 				},
 				{
-					"command": "vscode-manager.commands.requestFeaturedProfile",
-					"when": "view == vscode-manager.views.treeViews.featuredProfiles",
+					"command": "vscode-profile-manager.commands.requestFeaturedProfile",
+					"when": "view == vscode-profile-manager.views.treeViews.featuredProfiles",
 					"group": "navigation"
 				}
 			]
 		},
 		"commands": [
 			{
-				"command": "vscode-manager.commands.launchProfileJson",
+				"command": "vscode-profile-manager.commands.launchProfileJson",
 				"title": "Launch Custom Profile"
 			},
 			{
-				"command": "vscode-manager.commands.launchProfile",
+				"command": "vscode-profile-manager.commands.launchProfile",
 				"title": "Launch Custom Profile",
 				"enablement": "view == customProfiles && viewItem == customProfile"
 			},
 			{
-				"command": "vscode-manager.commands.cloneProfile",
+				"command": "vscode-profile-manager.commands.cloneProfile",
 				"title": "Clone Profile",
 				"enablement": "view == customProfiles && viewItem == customProfile"
 			},
 			{
-				"command": "vscode-manager.commands.deleteProfile",
+				"command": "vscode-profile-manager.commands.deleteProfile",
 				"title": "Delete",
 				"enablement": "view == customProfiles && viewItem == customProfile"
 			},
 			{
-				"command": "vscode-manager.commands.renameProfile",
+				"command": "vscode-profile-manager.commands.renameProfile",
 				"title": "Rename",
 				"enablement": "view == customProfiles && viewItem == customProfile"
 			},
 			{
-				"command": "vscode-manager.commands.copyAlias",
+				"command": "vscode-profile-manager.commands.copyAlias",
 				"title": "Copy Alias Command",
 				"enablement": "view == customProfiles && viewItem == customProfile"
 			},
@@ -114,20 +114,20 @@
 			{
 				"command": "customProfiles.commands.selectFeaturedProfile",
 				"title": "Select Featured Custom Profile",
-				"enablement": "view == 'vscode-manager.views.treeViews.featuredProfiles' && viewItem == customProfile"
+				"enablement": "view == 'vscode-profile-manager.views.treeViews.featuredProfiles' && viewItem == customProfile"
 			},
 			{
-				"command": "vscode-manager.commands.refreshProfiles",
+				"command": "vscode-profile-manager.commands.refreshProfiles",
 				"title": "Refresh",
 				"icon": "$(extensions-refresh)"
 			},
 			{
-				"command": "vscode-manager.commands.createProfile",
+				"command": "vscode-profile-manager.commands.createProfile",
 				"title": "Create Profile",
 				"icon": "$(search-new-editor)"
 			},
 			{
-				"command": "vscode-manager.commands.requestFeaturedProfile",
+				"command": "vscode-profile-manager.commands.requestFeaturedProfile",
 				"title": "Request Profile for Feature",
 				"icon": "$(git-pull-request)"
 			}
@@ -140,7 +140,7 @@
 					"contextualTitle": "Custom Profiles"
 				},
 				{
-					"id": "vscode-manager.views.treeViews.featuredProfiles",
+					"id": "vscode-profile-manager.views.treeViews.featuredProfiles",
 					"name": "Featured Profiles"
 				}
 			]

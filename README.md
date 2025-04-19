@@ -4,7 +4,7 @@
 
 'Custom Profiles for VSCode' helps large teams achieve consistent settings and extensions with a single json file. You can also use it to isolate VSCode instances with separate user settings and extensions.
 
-The extension is available on the Marketplace - [here](https://marketplace.visualstudio.com/items?itemName=dungxtd.vscode-manager).
+The extension is available on the Marketplace - [here](https://marketplace.visualstudio.com/items?itemName=dungxtd.vscode-profile-manager).
 
 ## 🎉 🥳 What's New?  👉 [changelog ](./changelog.md)
 
@@ -78,7 +78,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://rohinivsenthil.github.io"><img src="https://avatars.githubusercontent.com/u/42040329?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rohini Senthil</b></sub></a><br /><a href="https://github.com/dungxtd/vscode-manager/issues?q=author%3Arohinivsenthil" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://rohinivsenthil.github.io"><img src="https://avatars.githubusercontent.com/u/42040329?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rohini Senthil</b></sub></a><br /><a href="https://github.com/dungxtd/vscode-profile-manager/issues?q=author%3Arohinivsenthil" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 

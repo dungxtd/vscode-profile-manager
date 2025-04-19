@@ -1,7 +1,7 @@
 import * as os from 'os'
 import * as path from 'path'
 
-export const app = 'vscode-manager'
+export const app = 'vscode-profile-manager'
 
 export const rootStoragePath = path.join(os.homedir(), '.config', app)
 
@@ -40,4 +40,4 @@ export const uriSchemes = {
   featuredProfile: `${app}.uri.featuredProfile`,
 }
 
-export const featuredProfileUrl = 'http://api.github.com/repos/dungxtd/vscode-manager/contents/featured'
+export const featuredProfileUrl = 'http://api.github.com/repos/dungxtd/vscode-profile-manager/contents/featured'

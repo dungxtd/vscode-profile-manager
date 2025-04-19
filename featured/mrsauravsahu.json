@@ -11,7 +11,7 @@
         "window.zoomLevel": 2
     },
     "extensions": [
-        "dungxtd.vscode-manager",
+        "dungxtd.vscode-profile-manager",
         "WallabyJs.quokka-vscode",
         "Gruntfuggly.todo-tree",
         "jolaleye.horizon-theme-vscode",
