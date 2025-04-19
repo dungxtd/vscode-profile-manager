@@ -3,13 +3,13 @@ name: "ci"
 on:
   pull_request:
     branches:
-      - main
+      - master
   push:
     branches:
-      - main
+      - master
 
 env: 
-  MAIN_BRANCH: refs/heads/main
+  MAIN_BRANCH: refs/heads/master
 
 jobs:
   ci:
